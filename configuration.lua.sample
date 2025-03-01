@@ -61,6 +61,7 @@ local CONFIGURATION = {
         show_dictionary_button_in_main_popup = true, -- Set to true to show the dictionary button in the main popup
         dictionary_translate_to = "tr-TR", -- Set to the desired language code for the dictionary, nil to hide it
         show_dictionary_button_in_dictionary_popup = false, -- Set to true to show the dictionary button in the dictionary popup
+        automatically_add_note = false, -- Set to true to add a note by default (Makes the add note button a "Remove note" button)
 
         -- Custom prompts for the AI (text = button text in the UI). system-prompt defaults to "You are a helpful assistant." if not set.
         prompts = {

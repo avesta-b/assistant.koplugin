@@ -25,6 +25,7 @@ local CONFIGURATION = {
         show_dictionary_button_in_main_popup = true,                                     -- Set to true to show the dictionary button in the main popup
         dictionary_translate_to = "en-EN",
         show_dictionary_button_in_dictionary_popup = true,                             -- Set to true to show the dictionary button in the dictionary popup
+        automatically_add_note = true,                                                      -- Set to true to add a note by default when saving a highlight
 
         -- Custom prompts for the AI (text = button text in the UI). system-prompt defaults to "You are a helpful assistant." if not set.
         prompts = {
